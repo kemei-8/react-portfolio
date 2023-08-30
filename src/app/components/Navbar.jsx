@@ -15,7 +15,7 @@ const Navbar = () => {
                 
                 <ul class="flex relative mr-8 list-none">
                     <li id="linked" class="mr-8">
-                        <Link href="my-project/.next/server/app/about-page.js">About</Link>
+                        <Link href="my-project/src/app/pages/about-page.js">About</Link>
                     </li>
 
                     <li id="linked" class="mr-8">
