@@ -6,7 +6,7 @@ function Intro() {
     return (
         <section
             id="about"
-            className="flex flex-col md:flex-row items-center justify-center 15 h-screen mx-[15%] leading-loose">
+            className="flex flex-col md:flex-row items-center justify-center 15 mx-[15%] leading-loose">
                     <div className="my-4">
                         <h1 className="align-top text-4xl dark:text-white ">
                             Design oriented developer, <br /> 
