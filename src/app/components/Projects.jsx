@@ -2,7 +2,7 @@ import React from 'react'
 import projects from '../data/projects';
 import PortfolioItem from './PortfolioItem';
 
-function Projects() {
+const Projects = () => {
     return (
         <div className="mx-[15%] "> 
             <h1 className="text-left text-4xl">Projects</h1>
@@ -14,6 +14,7 @@ function Projects() {
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"> 
                     {projects.map(projects => (
                         <PortfolioItem 
+                            key={projects.id}
                             imgUrl={projects.imgUrl}
                             title={projects.title}
                             desc={projects.desc}

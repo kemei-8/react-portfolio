@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import ConnectButton from '../components/ConnectButton';
 
 function Intro() {
@@ -18,11 +19,11 @@ function Intro() {
                             <div className="space-y-4 text-xl">
 
                             <p className="w-[70%]">
-                                Hi, I'm Kelly!
+                                Hi, I&apos;m Kelly!
                             </p>
 
                             <p className="w-[80%]">
-                                I'm a fourth year Computer Science undergrad at Northwestern interested in crafting user-centered digital experiences
+                                I&apos;m a fourth year Computer Science undergrad at Northwestern interested in crafting user-centered digital experiences
                                 to empower communities and drive positive change. <br />
                             </p>
 
@@ -31,8 +32,11 @@ function Intro() {
                     </div>
                     
                     <div>
-                        <img className="max-w-sm"
-                            src='/assets/When I Grow Up.JPG' />
+                        <Image className="max-w-sm"
+                            src="/assets/favcomp.png"
+                            alt="Scan of kingergarten writing sample"
+                            width={791}
+                            height={1024} />
                     </div>
 
                     

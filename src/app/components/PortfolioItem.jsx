@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PortfolioItem({ title, desc, imgUrl, type, stack, link }) {
+function PortfolioItem({ title, desc, imgUrl, type, stack, link, id }) {
     return (
         <div id="parent-box" className=" flex flex-col border-2 border-stone-900 rounded-md overflow-hidden ">
             <div className="w-full p-2 pl-4 bg-blue-100 text-gray-700">{type}</div>
@@ -27,7 +27,8 @@ function PortfolioItem({ title, desc, imgUrl, type, stack, link }) {
                     
                     <div className="flex flex-wrap flex-row items-end justify-start text-xs md:text-sm gap-2 mt-0 mb-2">
                         {stack.map(item => (
-                            <span className="bg-green-200 inline-block px-2 font-semibold border-2 border-stone-900 rounded-md">
+                            <span key={item.id}
+                                    className="bg-green-200 inline-block px-2 font-semibold border-2 border-stone-900 rounded-md">
                                 {item}
                             </span>
                         ))}
