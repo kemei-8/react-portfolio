@@ -6,7 +6,7 @@ export default [
         type: 'Frontend',
         imgUrl: '/assets/wooper-pixel.png',
         stack: ['React', 'NextJS', 'Tailwind', 'JS'],
-        link: 'github.com'
+        link: 'https://react-portfolio-black-pi.vercel.app'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export default [
         type: 'Generative Art',
         imgUrl: '/assets/wooper-pixel.png',
         stack: ['Processing', 'Java'],
-        link: 'github.com'
+        link: 'https://web.madstudio.northwestern.edu'
     },
     {
         id: 3,
@@ -24,6 +24,6 @@ export default [
         type: 'Fullstack',
         imgUrl: '/assets/wooper-pixel.png',
         stack: ['Flask', 'Python', 'Postgres'],
-        link: 'github.com'
+        link: 'https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2022/wildhacks-2022-showcases-ingenuity-and-creativity.html'
     }
 ]

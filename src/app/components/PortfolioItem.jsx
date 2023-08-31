@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PortfolioItem({ title, desc, imgUrl, type, stack, link, id }) {
+function PortfolioItem({ title, desc, type, stack, link}) {
     return (
         <div id="parent-box" className=" flex flex-col border-2 border-stone-900 rounded-md overflow-hidden ">
             <div className="w-full p-2 pl-4 bg-blue-100 text-gray-700">{type}</div>
@@ -17,7 +17,9 @@ function PortfolioItem({ title, desc, imgUrl, type, stack, link, id }) {
                 >
                     <section>
                     <button className="mt-4 mb-4 bg-transparent hover:bg-blue-300 space-between text-black text-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-md">
-                        Learn More
+                        <a href={link}>
+                            Learn More
+                        </a>
                     </button>
 
                     <hr className="border-dashed border-black border-spacing-x-3 mb-4 dark:to-black"></hr>
