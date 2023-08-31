@@ -7,7 +7,7 @@ const Projects = () => {
         <div className="mx-[15%] "> 
             <h1 className="text-left text-4xl">Projects</h1>
 
-            <hr class="w-48 h-px bg-gray-400 border-0 rounded md:my-10 dark:bg-gray-950"></hr>
+            <hr class="w-48 h-px bg-gray-400 border-0 rounded my-10 dark:bg-gray-950"></hr>
 
             <div className="flex flex-col md:flex-row items-center justify-center">
 
